@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Mullingar.Default.Construction", "R5T.Mullingar.Default.Construction\R5T.Mullingar.Default.Construction.csproj", "{E7CBE30E-61E2-4C7E-BBE8-665AA39D71AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Mullingar.Default.Construction", "R5T.Mullingar.Default.Construction\R5T.Mullingar.Default.Construction.csproj", "{E7CBE30E-61E2-4C7E-BBE8-665AA39D71AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Mullingar.Default", "R5T.Mullingar.Default\R5T.Mullingar.Default.csproj", "{70FAE772-3000-441D-95F3-3C07399657EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Mullingar.Default", "R5T.Mullingar.Default\R5T.Mullingar.Default.csproj", "{70FAE772-3000-441D-95F3-3C07399657EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Mullingar.Default.Testing", "R5T.Mullingar.Default.Testing\R5T.Mullingar.Default.Testing.csproj", "{1875F8D9-0AAC-44CB-9436-992CB80AA741}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Mullingar.Default.Testing", "R5T.Mullingar.Default.Testing\R5T.Mullingar.Default.Testing.csproj", "{1875F8D9-0AAC-44CB-9436-992CB80AA741}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{2DDCA690-D720-4694-B296-B9E0996201AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Mullingar.Base", "..\..\R5T.Mullingar.Base\source\R5T.Mullingar.Base\R5T.Mullingar.Base.csproj", "{FDF604D1-D312-4CC8-8383-A8AA30EC39E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E7CBE30E-61E2-4C7E-BBE8-665AA39D71AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +59,26 @@ Global
 		{1875F8D9-0AAC-44CB-9436-992CB80AA741}.Release|x64.Build.0 = Release|Any CPU
 		{1875F8D9-0AAC-44CB-9436-992CB80AA741}.Release|x86.ActiveCfg = Release|Any CPU
 		{1875F8D9-0AAC-44CB-9436-992CB80AA741}.Release|x86.Build.0 = Release|Any CPU
+		{FDF604D1-D312-4CC8-8383-A8AA30EC39E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF604D1-D312-4CC8-8383-A8AA30EC39E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF604D1-D312-4CC8-8383-A8AA30EC39E4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FDF604D1-D312-4CC8-8383-A8AA30EC39E4}.Debug|x64.Build.0 = Debug|Any CPU
+		{FDF604D1-D312-4CC8-8383-A8AA30EC39E4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FDF604D1-D312-4CC8-8383-A8AA30EC39E4}.Debug|x86.Build.0 = Debug|Any CPU
+		{FDF604D1-D312-4CC8-8383-A8AA30EC39E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF604D1-D312-4CC8-8383-A8AA30EC39E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDF604D1-D312-4CC8-8383-A8AA30EC39E4}.Release|x64.ActiveCfg = Release|Any CPU
+		{FDF604D1-D312-4CC8-8383-A8AA30EC39E4}.Release|x64.Build.0 = Release|Any CPU
+		{FDF604D1-D312-4CC8-8383-A8AA30EC39E4}.Release|x86.ActiveCfg = Release|Any CPU
+		{FDF604D1-D312-4CC8-8383-A8AA30EC39E4}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FDF604D1-D312-4CC8-8383-A8AA30EC39E4} = {2DDCA690-D720-4694-B296-B9E0996201AD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC35002A-1E64-444F-AC62-102FE6170462}
 	EndGlobalSection
 EndGlobal
