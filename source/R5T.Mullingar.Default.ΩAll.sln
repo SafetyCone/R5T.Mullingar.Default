@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Mullingar.Default.Const
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Mullingar.Default.Testing", "R5T.Mullingar.Default.Testing\R5T.Mullingar.Default.Testing.csproj", "{913A1A97-C157-466C-9CC9-DE1DE71B828E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{FCADB992-1C77-4924-8E25-C54035B8F050}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{3DF88DDF-2E92-42E4-993B-D67472105344}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{913A1A97-C157-466C-9CC9-DE1DE71B828E}.Release|x64.Build.0 = Release|Any CPU
 		{913A1A97-C157-466C-9CC9-DE1DE71B828E}.Release|x86.ActiveCfg = Release|Any CPU
 		{913A1A97-C157-466C-9CC9-DE1DE71B828E}.Release|x86.Build.0 = Release|Any CPU
+		{3DF88DDF-2E92-42E4-993B-D67472105344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DF88DDF-2E92-42E4-993B-D67472105344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DF88DDF-2E92-42E4-993B-D67472105344}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3DF88DDF-2E92-42E4-993B-D67472105344}.Debug|x64.Build.0 = Debug|Any CPU
+		{3DF88DDF-2E92-42E4-993B-D67472105344}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3DF88DDF-2E92-42E4-993B-D67472105344}.Debug|x86.Build.0 = Debug|Any CPU
+		{3DF88DDF-2E92-42E4-993B-D67472105344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DF88DDF-2E92-42E4-993B-D67472105344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DF88DDF-2E92-42E4-993B-D67472105344}.Release|x64.ActiveCfg = Release|Any CPU
+		{3DF88DDF-2E92-42E4-993B-D67472105344}.Release|x64.Build.0 = Release|Any CPU
+		{3DF88DDF-2E92-42E4-993B-D67472105344}.Release|x86.ActiveCfg = Release|Any CPU
+		{3DF88DDF-2E92-42E4-993B-D67472105344}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3DF88DDF-2E92-42E4-993B-D67472105344} = {FCADB992-1C77-4924-8E25-C54035B8F050}
 	EndGlobalSection
 EndGlobal
